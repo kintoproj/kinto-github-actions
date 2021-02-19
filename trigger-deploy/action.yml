@@ -1,0 +1,22 @@
+name: kinto-github-actions
+description: Trigger deploy a service inside an environment for a KintoHub instance.
+author: sumitkolhe
+branding:
+  icon: upload-cloud
+  color: blue
+inputs:
+  core_host:      
+    description: Core Host for the KintoHub instance.
+    required: true
+  environment_id:
+    description: Environment id of the desired service.
+    required: true
+  service_name:
+    description: Name of the service that needs to be trigger deployed.
+    required: true
+  
+
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'
+  
