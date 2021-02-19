@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: trigger deploy
-        uses: kintohub/kinto-github-actions/trigger-deploy@v1.0.0
+        uses: kintoproj/kinto-github-actions/trigger-deploy@v1.0.0
         with:
           core_host: core.oss.kintohub.net:443
           environment_id: 600f12ceb32a91c8d7b3f72d
