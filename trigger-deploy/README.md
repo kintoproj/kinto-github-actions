@@ -21,7 +21,7 @@ To use this action for CI/CD functionality, create a `Github Workflow` in the gi
 
 > .github/workflows/trigger-deploy.yml
 
-```
+```yaml
 name: Trigger Deploy
 on:
   push:
