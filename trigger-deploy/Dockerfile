@@ -1,4 +1,4 @@
 FROM kintohub/kinto-cli:latest
-COPY entrypoint.sh /app/entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
