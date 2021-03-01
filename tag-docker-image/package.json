@@ -1,0 +1,12 @@
+{
+  "name": "kinto-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kintoproj/kinto-github-actions.git",
+  "author": "Nandi Wong <nandi0315@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4"
+  }
+}

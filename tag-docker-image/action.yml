@@ -1,0 +1,19 @@
+name: kinto-github-actions/tag-docker-image
+description: Tagging an existing docker image and push it without rebuild.
+author: nandiheath
+branding:
+  icon: upload-cloud
+  color: blue
+inputs:
+  to_tag:      
+    description: The name of the tag you would push to.
+    required: true
+  from_tag:
+    description: The name of the tag image originated. 
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'src/index.js'
+  post: 'src/index.js'
+  
